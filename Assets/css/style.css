@@ -1,0 +1,212 @@
+@font-face {
+  font-family: 'cv';
+  src: url('font/cv.ttf');
+}
+@font-face {
+  font-family: 'keepcalm';
+  src: url('font/keepcalm.ttf');
+}
+@font-face {
+  font-family:'fatcat';
+  src: url('font/fatcat.ttf');
+}
+body{
+  background-image: url('../img/devweb.jpg');
+  background-size: 100% 100%;
+  background-attachment:fixed;
+  background-size: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#navbar{
+  font-size:1.5em;
+  background-color: rgb(83,0,0);
+  width: 97%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black;
+  font-family:'fatcat';
+  text-transform: uppercase;
+  overflow: hidden;
+  position:fixed;
+  z-index:1;
+}
+.hptext{
+  text-decoration: none;
+  color:white;
+}
+#CV{
+  margin-top:50px;
+}
+#lienphoto{
+  margin-top:20px;
+}
+#bordure_gauche1{
+ text-align: center;
+ border-radius: 10px;
+ overflow: hidden;
+ position:fixed;
+ padding-right: 30px;
+}
+#bordure_gauche2{
+  text-align: center;
+}
+#lienphoto2{
+  background-color: rgb(0,0,0,0.4);
+  text-align: center;
+  padding:10px;
+}
+#CVblock1{
+  color:white;
+  background-color: rgb(0,0,0,0.8);
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px black;
+}
+#baniere_bas{
+  margin-top:20px;
+}
+#none{
+  list-style-type: none;
+}
+#envoi{
+  padding-left:40px;
+  padding-bottom:20px;
+}
+aside{
+  color: rgb(255,255,255,0.8);
+  text-align: justify;
+}
+#present,#comp,#form,#xp{
+  color:black;
+}
+#present1, #comp1, #form1, #xp1{
+  padding-top:30px;
+  color:white;
+}
+header{
+  font-family: 'fatcat';
+  color:white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow:5px 5px 6px black;
+  background-color: rgb(83,0,0);
+}
+h1{
+  background-color: rgb(83,0,0);
+}
+#lg{
+  margin:0;
+  padding: 0;
+}
+.photoCV1{
+  width:70%;
+  height:70%;
+  border-radius: 10px;
+  box-shadow:5px 5px 6px black;
+}
+.photoCV2{
+  width:53%;
+  height:53%;
+  border-radius: 10px;
+  box-shadow:5px 5px 6px black;
+  margin-bottom:20px;
+}
+.fb{
+  width:18%;
+  height:18%;
+}
+.link{
+  width:18%;
+  height:18%;
+}
+.git{
+  width:18%;
+  height:18%;
+}
+#liban{
+  color:white;
+  text-align: justify;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: rgb(0,0,0,0.8);
+  border-radius: 10px;
+  padding:0;
+}
+#Tban{
+  font-family:'fatcat';
+  background-color: rgb(83,0,0);
+  text-align: center;
+  color:white;
+  border-radius: 10px;
+  box-shadow:5px 5px 6px black;
+}
+#liban2{
+  list-style-type: none;
+  text-align: center;
+  display:flex;
+  justify-content: space-around;
+}
+label{
+    display: block;
+    width: 150px;
+    float: left;
+}
+header{
+  font-family: 'fatcat';
+  color:white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow:5px 5px 6px black;
+}
+h2{
+  font-family:'fatcat';
+  text-align: left;
+  padding-left: 40px;
+  color:white;
+  background-color: rgb(83,0,0);
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px black;
+}
+.accordion {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(83,0,0);
+  color: white;
+  font-family:'keepcalm';
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid black;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+    background-color: rgb(83,0,0);
+    font-family:'keepcalm';
+    color: white;
+}
+.panel{
+  padding: 0 18px;
+  background-color: rgb(255,255,255,0.5);
+  opacity:0.8;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+}
