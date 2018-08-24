@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'cv';
-  src: url('font/cv.ttf');
+  src: url('../font/cv.ttf');
 }
 @font-face {
   font-family: 'keepcalm';
-  src: url('font/keepcalm.ttf');
+  src: url('../font/keepcalm.ttf');
 }
 @font-face {
   font-family:'fatcat';
-  src: url('font/fatcat.ttf');
+  src: url('../font/fatcat.ttf');
 }
 body{
   background-image: url('../img/devweb.jpg');
@@ -18,6 +18,15 @@ body{
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+header{
+  font-family: 'fatcat';
+  color:white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow:5px 5px 6px black;
+  background-color: rgb(83,0,0);
+  padding:0;
 }
 #navbar{
   font-size:1.5em;
@@ -39,68 +48,26 @@ body{
   text-decoration: none;
   color:white;
 }
+#borderLeft{
+ text-align: center;
+ border-radius: 10px;
+ padding-right: 30px;
+}
 #CV{
   margin-top:50px;
 }
-#lienphoto{
-  margin-top:20px;
-}
-#bordure_gauche1{
- text-align: center;
- border-radius: 10px;
- overflow: hidden;
- position:fixed;
- padding-right: 30px;
-}
-#bordure_gauche2{
-  text-align: center;
-}
-#lienphoto2{
-  background-color: rgb(0,0,0,0.4);
-  text-align: center;
-  padding:10px;
-}
-#CVblock1{
-  color:white;
-  background-color: rgb(0,0,0,0.8);
-  border-radius: 10px;
-  box-shadow: 3px 3px 6px black;
-}
-#baniere_bas{
-  margin-top:20px;
-}
-#none{
-  list-style-type: none;
-}
-#envoi{
-  padding-left:40px;
-  padding-bottom:20px;
-}
-aside{
-  color: rgb(255,255,255,0.8);
-  text-align: justify;
-}
-#present,#comp,#form,#xp{
-  color:black;
-}
-#present1, #comp1, #form1, #xp1{
-  padding-top:30px;
-  color:white;
-}
-header{
-  font-family: 'fatcat';
-  color:white;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow:5px 5px 6px black;
-  background-color: rgb(83,0,0);
-}
-h1{
-  background-color: rgb(83,0,0);
-}
 #lg{
-  margin:0;
+  margin-top:50px;
   padding: 0;
+}
+hr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color:white;
+    width:75%;
 }
 .photoCV1{
   width:70%;
@@ -115,6 +82,133 @@ h1{
   box-shadow:5px 5px 6px black;
   margin-bottom:20px;
 }
+#photoLink{
+  margin-top:20px;
+}
+#bottomBan{
+  margin-top:20px;
+}
+#Tban{
+  font-family:'keepcalm';
+  background-color: rgb(83,0,0);
+  text-align: center;
+  color:white;
+  border-radius: 10px;
+  box-shadow:5px 5px 6px black;
+  padding-top:3px;
+  padding-left:0;
+  font-size:32px;
+}
+#CVblock1{
+  color:white;
+  background-color: rgb(0,0,0,0.8);
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px black;
+}
+.title2{
+  margin-bottom:10px;
+  text-align: center;
+  padding:0;
+  margin-top:0;
+  font-family:'keepcalm';
+}
+aside{
+  color: rgb(255,255,255,0.8);
+  text-align: justify;
+}
+#present,#comp,#form,#xp,#language{
+  color:black;
+
+}
+#comp1, #form1, #xp1, #lang1{
+  color:white;
+  display: none;
+}
+#star{
+  display: flex;
+  flex-wrap:wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+.phoneContent,.mailContent,.carContent{
+  padding-left:10px;
+}
+.languages{
+  margin:5px;
+  text-align: center;
+  padding-top:0px;
+  width:27%;
+}
+.language{
+  text-align: center;
+  width:100%;
+  font-size: 11px;
+}
+.carre{
+  color:orange;
+  font-size:24px;
+}
+.listFormations,.listExperiences{
+  list-style-type: none;
+  text-align: center;
+}
+.listFormation,.listExperience{
+  padding-left:0;
+  list-style-type: none;
+  text-align: center;
+}
+.titreListFormation,.titreListExperience{
+  text-align: left;
+}
+#e2n, #promeo, #gayLussac, .norauto, #roady{
+  width:125px;
+  height:75px;
+  float: left;
+  margin-top:5px;
+}
+.e2nContent,.promeoContent,.gayLussacContent,.norautoContent,.roadyContent{
+  padding-left:20px;
+  text-align: center;
+  padding-top:25px;
+}
+#present1{
+  color:white;
+  height:300px;
+  width:auto;
+  padding:0px;
+}
+#listSkills{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:60px;
+}
+#listSkill{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  margin-top:25px;
+}
+.skill{
+  font-family:'cv';
+  font-size:24px;
+  margin-right:60px;
+  margin-bottom:40px;
+}
+#photo2{
+  text-align: center;
+}
+#social{
+  background-color: rgb(0,0,0,0.4);
+  text-align: center;
+  padding:10px;
+}
+h1{
+  background-color: rgb(83,0,0);
+}
 .fb{
   width:18%;
   height:18%;
@@ -127,41 +221,10 @@ h1{
   width:18%;
   height:18%;
 }
-#liban{
-  color:white;
-  text-align: justify;
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  background-color: rgb(0,0,0,0.8);
-  border-radius: 10px;
-  padding:0;
-}
-#Tban{
-  font-family:'fatcat';
-  background-color: rgb(83,0,0);
-  text-align: center;
-  color:white;
-  border-radius: 10px;
-  box-shadow:5px 5px 6px black;
-}
-#liban2{
-  list-style-type: none;
-  text-align: center;
-  display:flex;
-  justify-content: space-around;
-}
 label{
     display: block;
     width: 150px;
     float: left;
-}
-header{
-  font-family: 'fatcat';
-  color:white;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow:5px 5px 6px black;
 }
 h2{
   font-family:'fatcat';
@@ -173,40 +236,66 @@ h2{
   box-shadow: 3px 3px 6px black;
 }
 .accordion {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(83,0,0);
-  color: white;
-  font-family:'keepcalm';
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border-bottom: 1px solid black;
-  outline: none;
-  transition: 0.4s;
-}
-.active, .accordion:hover {
-    background-color: #ccc;
     background-color: rgb(83,0,0);
-    font-family:'keepcalm';
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
     color: white;
 }
-.panel{
-  padding: 0 18px;
-  background-color: rgb(255,255,255,0.5);
-  opacity:0.8;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
+.active, .accordion:hover {
+   background-color: #9d0101;
 }
-.accordion:after {
-    content: '\02795';
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
 }
-.active:after {
-    content: "\2796";
+.title3{
+  display: flex;
+  justify-content: space-around;
+  margin-top:0;
+  padding:3px;
+
+}
+.underTitle1, .underTitle2{
+  border:1px solid white;
+  text-align: center;
+  background-color: rgb(83,0,0);
+  width:150px;
+  height:45px;
+}
+.titleXP{
+  text-align: center;
+  padding:0;
+  margin-top:0;
+  font-family:'keepcalm';
+}
+.listProg{
+  text-align: center;
+  display: none;
+  margin-top:10px;
+}
+.smaller{
+  font-size:10px;
+  text-align: center;
+  padding:0;
+  margin:0px;
+}
+.liProg, .liProgs{
+  margin-top:20px;
+  list-style-type: none;
+}
+.listProgs{
+  color:black;
+  text-align: center;
+  margin-top:10px;
+  padding:0;
+  margin-top:0;
 }
