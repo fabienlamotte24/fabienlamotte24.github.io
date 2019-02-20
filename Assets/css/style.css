@@ -171,7 +171,10 @@ p{
   height:80%;
   float:left;
 }
-.norauto, .roady{
+#hsk{
+
+}
+.norauto, .roady, .hsk{
   margin-right:5%;
   margin-top:5%;
 }
