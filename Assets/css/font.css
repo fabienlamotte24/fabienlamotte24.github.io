@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'cv';
+    src: url('../font/cv.ttf');
+  }
+  @font-face {
+    font-family: 'keepcalm';
+    src: url('../font/keepcalm.ttf');
+  }
+  @font-face {
+    font-family:'fatcat';
+    src: url('../font/fatcat.ttf');
+  }
+  @font-face {
+    font-family:'tillana';
+    src: url('../font/tillana-semibold.ttf');
+  }

@@ -1,23 +1,7 @@
-@font-face {
-  font-family: 'cv';
-  src: url('../font/cv.ttf');
-}
-@font-face {
-  font-family: 'keepcalm';
-  src: url('../font/keepcalm.ttf');
-}
-@font-face {
-  font-family:'fatcat';
-  src: url('../font/fatcat.ttf');
-}
-@font-face {
-  font-family:'tillana';
-  src: url('../font/tillana-semibold.ttf');
-}
+/*-------------------------------------------------------------------------------------------------------------------------*/
 .bold{
   font-weight:bold;
 }
--------------------------------------------------------------------------------------------------------------------------
 body,.container-fluid,.row{
   margin:0;
   padding:0;
@@ -130,24 +114,9 @@ p{
 .lang{
   font-size:2vw;
 }
-.rowLang{
-  margin-top:4%;
-}
-#e2n{
-  width:20%;
-  height:80%;
-  float:left;
-}
-#promeo{
-  width:20%;
-  height:80%;
-  float:left;
-}
-#GL{
-  width:20%;
-  height:80%;
-  float:left;
-}
+.rowLang div{ margin-top:4% }
+.rowLang .col-3.text-center .d-flex.justify-content-around i { margin: 0 2px 0 0 }
+.images_formations {width:200px; height:100px;}
 .e2nContent, .promeoContent, .GLContent{
   margin-right:5%;
   margin-top:5%;
@@ -158,23 +127,13 @@ p{
 .formationContent, .experienceContent{
   margin-top:4%;
 }
-.ajust{
-  height:20vh;
-}
 #norauto{
   width:20%;
   height:40%;
   float:left;
 }
-#roady{
-  width:20%;
-  height:80%;
-  float:left;
-}
-.norauto, .roady, .hsk{
-  margin-right:5%;
-  margin-top:5%;
-}
+.images_entreprises{ width: 200px; height:100px; }
+
 .skills{
   font-size:22vw;
 }
@@ -219,3 +178,4 @@ p{
   text-shadow:none;
   color:orange;
 }
+.images_formations_xs, .images_entreprises_xs { width:50px; height:25px; }
